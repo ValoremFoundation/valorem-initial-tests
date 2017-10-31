@@ -21,12 +21,12 @@ contract Presale is owned {
     uint256 public buyingPrice;
 
     function Presale() {
-        presaleStart = 1508112000; // 16 Oct
-        stage1Start = 1511179200; // 20 Nov
-        stage2Start = 1512043200; // 30 Nov
-        stage3Start = 1512907200; // 10 Dec
-        stage4Start = 1513771200; // 20 Dec
-        saleEnd = 1514635200; // 30 Dec
+        presaleStart = 1510315200; // 10 Nov
+        stage1Start = 1512129600; // 1 Dec
+        stage2Start = 1512993600; // 11 Dec
+        stage3Start = 1513857600; // 21 Dec
+        stage4Start = 1514721600; // 31 Dec
+        saleEnd = 1515672000; // 11 Jan
 
         presaleBonus = 50;
         stage1Bonus = 25;

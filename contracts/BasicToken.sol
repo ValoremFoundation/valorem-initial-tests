@@ -72,7 +72,7 @@ contract BasicToken is owned {
     function burnTokens(uint256 _value) onlyOwner returns (bool success) {
         require(balanceOf[msg.sender] > _value);
 
-        balanceOf[msg.sender] = balanceOf[msg.sender].add(_value);
+        balanceOf[msg.sender] = balanceOf[msg.sender].sub(_value);
         totalSupply = totalSupply.sub(_value);
         Burn(msg.sender,_value);
 
